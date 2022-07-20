@@ -1,0 +1,50 @@
+.about-globe-image {
+  max-height: 500px;
+  max-width: 370px;
+}
+.about-text-image {
+  max-height: 100vh;
+  max-width: 100px;
+}
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-height: 500px;
+  max-width: 370px;
+}
+.completion-bar-container {
+  display: flex;
+  flex-direction: row;
+}
+.first-color-filling {
+  border: 2px solid #ff5043;
+  border-radius: 10px;
+  width: 50px;
+}
+.first-color-dropping {
+  border: 2px solid #23293c;
+  width: 100px;
+}
+.who-we-are-text {
+  color: #0e0d12;
+  font-family: "SF Pro";
+}
+.we-are-local-text {
+  font-family: "Mont-SemiBold";
+  color: #000000;
+  font-size: 50px;
+}
+.discover-work-text {
+  font-family: "Mont-Bold";
+  color: #ffffff;
+  font-size: 15px;
+}
+.last-word-in-about {
+  color: #ff5043;
+}
+.about-description {
+  color: #23293c;
+  font-family: "SFProDisplay-Regular";
+}
