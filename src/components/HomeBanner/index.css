@@ -137,5 +137,50 @@ body {
   color: #ff5043;
 }
 .our-work-image{
-  width:100vw
+  width:100vw}
+.stories-clients-main-container {
+  background-image: url("https://img.freepik.com/premium-photo/speaker-stage-conference-room_38810-5200.jpg?w=826");
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.bottom-clients-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.our-global-reach {
+  color: #0e0d12;
+  font-family: "SF Pro";
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 22px;
+  text-align: left;
+}
+.our-clients-love-us {
+  color: #23293c;
+  font-family: "Mont";
+  font-size: 50px;
+  letter-spacing: -0.35px;
+  line-height: 80px;
+  text-align: center;
+}
+.middle-word-in-love {
+  color: #ff5043;
+}
+.clients-first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.clients-image {
+  height: 80px;
+  width: 150px;
+  margin-right: 10px;
 }

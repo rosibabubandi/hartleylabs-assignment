@@ -5,6 +5,7 @@ import About from "../About";
 import Services from "../Services";
 import Solutions from "../Solutions";
 import Links from "../Links";
+import SuccessStories from "../SuccessStories";
 
 import plusSymbol from "../../assets/plusSymbol.PNG";
 import cancelSymbol from "../../assets/cancelSymbol.png";
@@ -14,6 +15,12 @@ import solutionTravel from "../../assets/solutionTravel.PNG";
 import solutionManufacturing from "../../assets/solutionManufacturing.PNG";
 import solutionEV from "../../assets/solutionEV.PNG";
 import ourWork from "../../assets/ourWork.png";
+
+import clientsGoogle from "../../assets/clientsGoogle.PNG";
+import clientsBlueYonder from "../../assets/clientsBlueYonder.PNG";
+import clientsInfosys from "../../assets/clientsInfosys.PNG";
+import clientsNTTDATA from "../../assets/clientsNTTDATA.PNG";
+import clientsDataMetica from "../../assets/clientsDataMetica.PNG";
 
 import { Instagram } from "../../assets/instagram";
 
@@ -436,6 +443,55 @@ class HomeBanner extends Component {
         <LatestInsights />
         <img className="our-work-image" src={ourWork} alt="our-work" />
         <Links />
+        <div className="stories-clients-main-container">
+          <SuccessStories />
+        </div>
+        <div className="bottom-clients-container">
+          <p className="our-global-reach">OUR GLOBAL REACH</p>
+          <h1 className="our-clients-love-us">
+            Our clients <span className="middle-word-in-love">love</span> us,
+            you will love too.
+          </h1>
+          <div className="clients-first-container">
+            <img src={clientsGoogle} className="clients-image" alt="google" />
+            <img
+              src={clientsBlueYonder}
+              className="clients-image"
+              alt="blue yonder"
+            />
+            <img src={clientsInfosys} className="clients-image" alt="infosys" />
+            <img
+              src={clientsNTTDATA}
+              className="clients-image"
+              alt="ntt data"
+            />
+            <img
+              src={clientsDataMetica}
+              className="clients-image"
+              alt="data metica"
+            />
+          </div>
+          <div className="clients-first-container">
+            <img
+              src={clientsNTTDATA}
+              className="clients-image"
+              alt="ntt data"
+            />
+            <img src={clientsInfosys} className="clients-image" alt="infosys" />
+            <img
+              src={clientsDataMetica}
+              className="clients-image"
+              alt="data metica"
+            />
+            <img src={clientsGoogle} className="clients-image" alt="google" />
+            <img
+              src={clientsBlueYonder}
+              className="clients-image"
+              alt="blue yonder"
+            />
+          </div>
+        </div>
+        <Instagram />
       </div>
     );
   }
