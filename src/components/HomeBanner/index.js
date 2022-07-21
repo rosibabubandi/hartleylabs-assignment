@@ -22,8 +22,6 @@ import clientsInfosys from "../../assets/clientsInfosys.PNG";
 import clientsNTTDATA from "../../assets/clientsNTTDATA.PNG";
 import clientsDataMetica from "../../assets/clientsDataMetica.PNG";
 
-import { Instagram } from "../../assets/instagram";
-
 import "./index.css";
 import LatestInsights from "../LatestInsights";
 
@@ -440,9 +438,7 @@ class HomeBanner extends Component {
             ))}
           </ul>
         </div>
-        <LatestInsights />
-        <img className="our-work-image" src={ourWork} alt="our-work" />
-        <Links />
+
         <div className="stories-clients-main-container">
           <SuccessStories />
         </div>
@@ -491,7 +487,9 @@ class HomeBanner extends Component {
             />
           </div>
         </div>
-        <Instagram />
+        <LatestInsights />
+        <img className="our-work-image" src={ourWork} alt="our-work" />
+        <Links />
       </div>
     );
   }
