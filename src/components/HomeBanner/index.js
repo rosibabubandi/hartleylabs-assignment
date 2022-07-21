@@ -4,6 +4,7 @@ import Works from "../Works";
 import About from "../About";
 import Services from "../Services";
 import Solutions from "../Solutions";
+import Careers from "../Careers";
 import Links from "../Links";
 import SuccessStories from "../SuccessStories";
 
@@ -486,6 +487,9 @@ class HomeBanner extends Component {
               alt="blue yonder"
             />
           </div>
+        </div>
+        <div className="careers-main-container">
+          <Careers />
         </div>
         <LatestInsights />
         <img className="our-work-image" src={ourWork} alt="our-work" />

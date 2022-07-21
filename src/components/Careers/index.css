@@ -1,0 +1,77 @@
+.careers-text {
+  color: #0e0d12;
+  font-family: "SF Pro";
+}
+.join-our-team-text {
+  font-family: "Mont-SemiBold";
+  color: #23293c;
+  font-size: 55px;
+}
+
+.middle-word-in-getting {
+  color: #ff5043;
+}
+.hr-separator {
+  border: 1px solid #d1d1d1;
+  width: 50%;
+}
+.services-inside-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.services-ul-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: flex-start;
+}
+.service-text {
+  color: #23293c;
+  font-family: "Mont-Regular";
+  font-size: 30px;
+}
+.plus-cancel-button {
+  background-color: inherit;
+  border: none;
+  min-height: 80px;
+  max-height: 150px;
+  min-width: 80px;
+  max-width: 150px;
+}
+.plus-cancel-image-size {
+  height: 25px;
+  width: 25px;
+}
+.solutions-main-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+.solution-item-ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 15px;
+}
+.solutions-top-industries-text {
+  color: #0e0d12;
+  font-family: "SF Pro";
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 22px;
+  text-align: left;
+}
+.hand-images {
+  height: 400px;
+  width: 350px;
+}
