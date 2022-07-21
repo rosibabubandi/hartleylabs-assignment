@@ -3,8 +3,16 @@ import NavBar from "../NavBar";
 import Works from "../Works";
 import About from "../About";
 import Services from "../Services";
+import Solutions from "../Solutions";
+
 import plusSymbol from "../../assets/plusSymbol.PNG";
 import cancelSymbol from "../../assets/cancelSymbol.png";
+
+import solutionBlockChain from "../../assets/solutionBlockChain.PNG";
+import solutionTravel from "../../assets/solutionTravel.PNG";
+import solutionManufacturing from "../../assets/solutionManufacturing.PNG";
+import solutionEV from "../../assets/solutionEV.PNG";
+
 import { Instagram } from "../../assets/instagram";
 
 import "./index.css";
@@ -113,11 +121,43 @@ const servicesActiveList = [
   },
 ];
 
-const solutionsList=[
-    {
-        id: 
-    }
-]
+const solutionsList = [
+  {
+    id: 1,
+    title: "Blockchain",
+    description:
+      "It is a long established fact that a reader will be distracted by the readable content",
+    imagePath: solutionBlockChain,
+  },
+  {
+    id: 2,
+    title: "Travel & Hospitality",
+    description:
+      "It is a long established fact that a reader will be distracted by the readable content",
+    imagePath: solutionTravel,
+  },
+  {
+    id: 3,
+    title: "Manufacturing",
+    description:
+      "It is a long established fact that a reader will be distracted by the readable content",
+    imagePath: solutionManufacturing,
+  },
+  {
+    id: 4,
+    title: "Electric Vehicle",
+    description:
+      "It is a long established fact that a reader will be distracted by the readable content",
+    imagePath: solutionEV,
+  },
+  {
+    id: 5,
+    title: "Electric Vehicle",
+    description:
+      "It is a long established fact that a reader will be distracted by the readable content",
+    imagePath: solutionEV,
+  },
+];
 
 class HomeBanner extends Component {
   state = {
@@ -382,11 +422,16 @@ class HomeBanner extends Component {
           <hr className="hr-separator" />
         </div>
         <div className="solutions-main-container">
-                <p className="solutions-top-industries-text">INDUSTRIES</p>
-                <h1 className="our-expertise-and-so">Our <span className="middle-word-in-expertise">expertise</span> and solutions</h1>
-                <ul className="solution-item-ul-container">
-
-                </ul>
+          <p className="solutions-top-industries-text">INDUSTRIES</p>
+          <h1 className="our-expertise-and-so">
+            Our <span className="middle-word-in-expertise">expertise</span> and
+            solutions
+          </h1>
+          <ul className="solution-item-ul-container">
+            {solutionsList.map((eachSolution) => (
+              <Solutions key={eachSolution.id} solutionDetails={eachSolution} />
+            ))}
+          </ul>
         </div>
         <Instagram />
       </div>
