@@ -488,7 +488,9 @@ class HomeBanner extends Component {
             />
           </div>
         </div>
-        <Instagram />
+        <div className="careers-main-container">
+          <Careers />
+        </div>
       </div>
     );
   }
