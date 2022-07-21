@@ -30,8 +30,8 @@ const Works = (props) => {
       <div className="work-details-image-container">
         <div className="work-details-container">
           <h1 className="top-head-styles">
-            {remainingWords}{" "}
-            <span className="last-word-in-head-styles">{lastWord}</span>
+            {remainingWords}
+            <span className="last-word-in-head-styles"> {lastWord}</span>
           </h1>
           <p className="work-description">{description}</p>
           <p className="discover-work-text">DISCOVER OUR WORK</p>

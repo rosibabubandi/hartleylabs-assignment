@@ -38,23 +38,19 @@ body {
 }
 .services-initial-main-container {
   background-color: #f5f5f7;
-  height: 100vh;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .services-final-main-container {
   background-color: #fffcdf;
-  height: 100vh;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .services-text {
   color: #0e0d12;
@@ -63,13 +59,79 @@ body {
 .getting-started-with-us-text {
   font-family: "Mont-SemiBold";
   color: #23293c;
-  font-size: 15px;
+  font-size: 55px;
 }
 
 .middle-word-in-getting {
   color: #ff5043;
 }
-.instagram-image {
-  background-color: red;
-  color: #ffffff;
+.hr-separator {
+  border: 1px solid #d1d1d1;
+  width: 100%;
+}
+.services-inside-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.services-ul-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: flex-start;
+}
+.service-text {
+  color: #23293c;
+  font-family: "Mont-Regular";
+  font-size: 30px;
+}
+.plus-cancel-button {
+  background-color: inherit;
+  border: none;
+  min-height: 80px;
+  max-height: 150px;
+  min-width: 80px;
+  max-width: 150px;
+}
+.plus-cancel-image-size {
+  height: 25px;
+  width: 25px;
+}
+.solutions-main-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+.solution-item-ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-left: 0px;
+}
+.solutions-top-industries-text {
+  color: #0e0d12;
+  font-family: "SF Pro";
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 22px;
+  text-align: left;
+}
+.our-expertise-and-so {
+  color: #23293c;
+  font-family: "Mont";
+  font-size: 72px;
+  letter-spacing: -0.35px;
+  line-height: 80px;
+  text-align: left;
+}
+.middle-word-in-expertise {
+  color: #ff5043;
 }
