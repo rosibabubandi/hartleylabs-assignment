@@ -4,6 +4,7 @@ import Works from "../Works";
 import About from "../About";
 import Services from "../Services";
 import Solutions from "../Solutions";
+import Links from "../Links";
 
 import plusSymbol from "../../assets/plusSymbol.PNG";
 import cancelSymbol from "../../assets/cancelSymbol.png";
@@ -12,10 +13,12 @@ import solutionBlockChain from "../../assets/solutionBlockChain.PNG";
 import solutionTravel from "../../assets/solutionTravel.PNG";
 import solutionManufacturing from "../../assets/solutionManufacturing.PNG";
 import solutionEV from "../../assets/solutionEV.PNG";
+import ourWork from "../../assets/ourWork.png";
 
 import { Instagram } from "../../assets/instagram";
 
 import "./index.css";
+import LatestInsights from "../LatestInsights";
 
 const worksList = [
   {
@@ -208,11 +211,8 @@ class HomeBanner extends Component {
   };
 
   render() {
-    const {
-      activeWorkIndex,
-      servicesMainBackground,
-      servicesActiveList,
-    } = this.state;
+    const { activeWorkIndex, servicesMainBackground, servicesActiveList } =
+      this.state;
     const currentReview = worksList[activeWorkIndex];
 
     const servicesBackground = servicesMainBackground
@@ -433,7 +433,9 @@ class HomeBanner extends Component {
             ))}
           </ul>
         </div>
-        <Instagram />
+        <LatestInsights />
+        <img className="our-work-image" src={ourWork} alt="our-work" />
+        <Links />
       </div>
     );
   }
