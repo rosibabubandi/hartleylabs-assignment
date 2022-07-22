@@ -6,6 +6,7 @@ import Services from "../Services";
 import Solutions from "../Solutions";
 import Careers from "../Careers";
 import Links from "../Links";
+import LatestInsights from "../LatestInsights";
 import SuccessStories from "../SuccessStories";
 
 import plusSymbol from "../../assets/plusSymbol.PNG";
@@ -15,7 +16,8 @@ import solutionBlockChain from "../../assets/solutionBlockChain.PNG";
 import solutionTravel from "../../assets/solutionTravel.PNG";
 import solutionManufacturing from "../../assets/solutionManufacturing.PNG";
 import solutionEV from "../../assets/solutionEV.PNG";
-import ourWork from "../../assets/ourWork.png";
+
+import ourWorkSupport from "../../assets/ourWorkSupport.PNG";
 
 import clientsGoogle from "../../assets/clientsGoogle.PNG";
 import clientsBlueYonder from "../../assets/clientsBlueYonder.PNG";
@@ -24,7 +26,6 @@ import clientsNTTDATA from "../../assets/clientsNTTDATA.PNG";
 import clientsDataMetica from "../../assets/clientsDataMetica.PNG";
 
 import "./index.css";
-import LatestInsights from "../LatestInsights";
 
 const worksList = [
   {
@@ -217,8 +218,11 @@ class HomeBanner extends Component {
   };
 
   render() {
-    const { activeWorkIndex, servicesMainBackground, servicesActiveList } =
-      this.state;
+    const {
+      activeWorkIndex,
+      servicesMainBackground,
+      servicesActiveList,
+    } = this.state;
     const currentReview = worksList[activeWorkIndex];
 
     const servicesBackground = servicesMainBackground
@@ -491,8 +495,17 @@ class HomeBanner extends Component {
         <div className="careers-main-container">
           <Careers />
         </div>
-        <LatestInsights />
-        <img className="our-work-image" src={ourWork} alt="our-work" />
+        <div className="latest-insight-main-container">
+          <LatestInsights />
+        </div>
+        <div
+          className="our-work-container"
+          style={{
+            backgroundImage: `url(${ourWorkSupport})`,
+          }}
+        >
+          <img src={ourWorkSupport} className="our-work-image" alt="our-work" />
+        </div>
         <Links />
       </div>
     );

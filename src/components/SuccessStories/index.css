@@ -69,3 +69,77 @@
   display: flex;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+  .success-stories-container {
+    background-color: #f5f5f7;
+    border-radius: 24px;
+    max-width: 350px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    padding: 10px;
+  }
+  .stories-icon-image {
+    height: 45px;
+    width: 45px;
+  }
+  .lorem-ipsum-is-simple {
+    color: #021c29;
+    font-family: "Mont";
+    font-size: 25px;
+    line-height: 48px;
+    max-width: 350px;
+    text-align: center;
+  }
+  .bill-gust-ceo-and {
+    color: #021c29;
+    font-family: "Mont";
+    font-size: 12px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .stories-end-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .stories-control-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .stories-numbers {
+    color: #021c29;
+    font-family: Mont;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .stories-numbers-line {
+    border: 1px solid #939597;
+    opacity: 0.6000000238418579;
+    width: 40px;
+  }
+  .view-success-story {
+    color: #ff5043;
+    font-family: "Mont";
+    font-size: 12px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .arrow-play-buttons {
+    background-color: inherit;
+    border: none;
+    min-height: 70px;
+    max-height: 100px;
+    min-width: 70px;
+    max-width: 100px;
+    display: flex;
+    align-self: flex-end;
+  }
+}

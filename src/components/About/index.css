@@ -17,13 +17,13 @@
 .completion-bar-container {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
-.first-color-filling {
+.first-about-color-filling {
   border: 2px solid #ff5043;
-  border-radius: 10px;
   width: 50px;
 }
-.first-color-dropping {
+.first-about-color-dropping {
   border: 2px solid #23293c;
   width: 100px;
 }
@@ -47,4 +47,54 @@
 .about-description {
   color: #23293c;
   font-family: "SFProDisplay-Regular";
+}
+
+@media screen and (max-width: 767px) {
+  .about-globe-image {
+    max-height: 150px;
+    max-width: 150px;
+  }
+  .about-text-image {
+    max-height: 100vh;
+    max-width: 80px;
+  }
+  .about-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-height: 300px;
+    max-width: 150px;
+  }
+  .completion-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .first-about-color-filling {
+    border: 2px solid #ff5043;
+    width: 25px;
+  }
+  .first-about-color-dropping {
+    border: 2px solid #23293c;
+    width: 50px;
+  }
+  .who-we-are-text {
+    color: #0e0d12;
+    font-family: "SF Pro";
+    font-size: 12px;
+  }
+  .we-are-local-text {
+    font-family: "Mont-SemiBold";
+    color: #000000;
+    font-size: 30px;
+  }
+  .last-word-in-about {
+    color: #ff5043;
+  }
+  .about-description {
+    color: #23293c;
+    font-family: "SFProDisplay-Regular";
+    font-size: 10px;
+  }
 }

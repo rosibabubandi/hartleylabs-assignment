@@ -4,79 +4,63 @@ import insightsImage3 from "../../assets/insightsImage3.png";
 
 import "./index.css";
 
-const LatestInsights = (props) => (
-  <div className="latest-insights">
-    <p className="description">Blogs / News / Events</p>
-    <h1 className="heading">
-      Latest <span className="insights-heading">Insights</span>
-    </h1>
-    <div className="container">
-      <div
-        className="insights1"
-        style={{
-          backgroundImage: `url(${insightsImage1})`,
-        }}
-      >
-        <p className="line">FEATURE | 4 min read</p>
-        <h6 className="description1">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </h6>
-        <p className="line">December 14, 2021</p>
-      </div>
-      <div>
-        <div className="insights2">
-          <div>
-            <div
-              style={{
-                borderTopLeftRadius: 30,
-                borderBottomLeftRadius: 30,
-                marginLeft: 20,
-                marginBottom: 10,
-              }}
-              className="content"
-            >
-              <p>BLOG | 4 min read</p>
-              <b>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </b>
-              <p>December 14, 2021</p>
-            </div>
-          </div>
-          <img
-            className="insights-image"
-            src={insightsImage2}
-            alt="insights-2"
-          />
+const LatestInsights = (props) => {
+  return (
+    <>
+      <p className="blogs-news-event">Blogs / News / Events</p>
+      <h1 className="latest-text">
+        Latest <span className="insights-text">Insights</span>
+      </h1>
+      <div className="combined-container">
+        <div
+          className="first-left-image-container"
+          style={{
+            backgroundImage: `url(${insightsImage1})`,
+          }}
+        >
+          <p className="feature-4-min-read">FEATURE | 4 min read</p>
+          <h1 className="lorem-ipsum-is-simpl-copy-3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </h1>
+          <p className="december-14-2021">December 14, 2021</p>
         </div>
-        <div className="insights2" style={{ marginTop: 10 }}>
-          <img
-            className="insights-image"
-            src={insightsImage3}
-            alt="insights-3"
-            style={{ marginLeft: 20 }}
-          />
-          <div>
-            <div
-              style={{
-                borderTopRightRadius: 30,
-                borderBottomRightRadius: 30,
-              }}
-              className="content"
-            >
-              <p>BLOG | 4 min read</p>
-              <b>
+        <div className="second-right-combined-container">
+          <div className="right-first-container">
+            <div className="right-first-text-container">
+              <p className="blog-4-min-read">BLOG | 4 min read</p>
+              <p className="lorem-ipsum-is-simpl-copy-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
-              </b>
-              <p>December 14, 2021</p>
+              </p>
+              <p className="december-14-2021-copy">December 14, 2021</p>
+            </div>
+            <img
+              className="right-first-image"
+              src={insightsImage2}
+              alt="right-first"
+            />
+          </div>
+          <div className="right-first-container">
+            <img
+              className="right-first-image"
+              src={insightsImage3}
+              alt="insights-3"
+            />
+
+            <div className="right-first-text-container">
+              <p className="blog-4-min-read">BLOG | 4 min read</p>
+              <p className="lorem-ipsum-is-simpl-copy-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <p className="december-14-2021-copy">December 14, 2021</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-);
+    </>
+  );
+};
 
 export default LatestInsights;

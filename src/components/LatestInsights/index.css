@@ -1,69 +1,218 @@
-.latest-insights{
-    padding:20px;
+.blogs-news-event {
+  color: #0e0d12;
+  font-family: "SF Pro";
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 12px;
+  text-align: left;
 }
-
-.description{
-    font-size: 16px;
+.latest-text {
+  color: #23293c;
+  font-family: Mont;
+  font-size: 55px;
+  letter-spacing: -0.35px;
+  line-height: 30px;
+  text-align: left;
 }
-
-.line {
-    font-size: 18px;
+.insights-text {
+  color: #ff5043;
 }
-
-.description1 {
-    font-size: 30px;
-    font-weight: 500;
+.combined-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
 }
-
-.heading{
-    font-size: 72px;
+.first-left-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-size: cover;
+  height: 600px;
+  padding: 15px;
+  border-radius: 20px;
 }
-
-.insights-heading{
-    color:#FF5043;
+.feature-4-min-read {
+  color: #ffffff;
+  font-family: "SFProDisplay";
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  line-height: 30px;
+  text-align: left;
 }
-
-.container{
-    width: 100%;
+.lorem-ipsum-is-simpl-copy-3 {
+  color: #ffffff;
+  font-family: "SFProDisplay";
+  font-size: 30px;
+  line-height: 42px;
+  width: 645px;
+  text-align: left;
 }
-
-.insights1{
-    width:100%;
+.december-14-2021 {
+  color: #ffffff;
+  font-family: "SFProDisplay";
+  font-size: 18px;
+  letter-spacing: 0.09px;
+  line-height: 32px;
+  text-align: left;
+}
+.second-right-combined-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+}
+.right-first-container {
+  background-color: #f5f5f7;
+  border-radius: 24px;
+  width: 450px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.right-first-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 250px;
+  padding: 7px;
+}
+.blog-4-min-read {
+  color: #021c29;
+  font-family: "SFProDisplay";
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  line-height: 30px;
+  text-align: left;
+}
+.lorem-ipsum-is-simpl-copy-4 {
+  color: #021c29;
+  font-family: "SFProDisplay";
+  font-size: 16px;
+  line-height: 30px;
+  width: 220px;
+  text-align: left;
+  font-weight: bold;
+}
+.december-14-2021-copy {
+  color: #021c29;
+  font-family: "SFProDisplay";
+  font-size: 18px;
+  letter-spacing: 0.09px;
+  line-height: 32px;
+  text-align: left;
+}
+.right-first-image {
+  max-width: 300px;
+  max-height: 300px;
+}
+@media screen and (max-width: 767px) {
+  .blogs-news-event {
+    color: #0e0d12;
+    font-family: "SF Pro";
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 12px;
+    text-align: left;
+  }
+  .latest-text {
+    color: #23293c;
+    font-family: Mont;
+    font-size: 25px;
+    letter-spacing: -0.35px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .insights-text {
+    color: #ff5043;
+  }
+  .combined-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+  }
+  .first-left-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     background-size: cover;
-    border-radius: 40px;
-    padding:40px;
-    padding-top: 350px;
-    color:#fff;
-}
-
-.content{
-    background-color: #F5F5F7;
-    height:100%;
+    height: 400px;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .feature-4-min-read {
+    color: #ffffff;
+    font-family: "SFProDisplay";
+    font-size: 10px;
+    letter-spacing: 0.9px;
+    text-align: left;
+  }
+  .lorem-ipsum-is-simpl-copy-3 {
+    color: #ffffff;
+    font-family: "SFProDisplay";
+    font-size: 12px;
+    width: 150px;
+    text-align: left;
+  }
+  .december-14-2021 {
+    color: #ffffff;
+    font-family: "SFProDisplay";
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .second-right-combined-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
-}
-
-.insights2 {
-    width: 100%;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .right-first-container {
+    background-color: #f5f5f7;
+    border-radius: 15px;
+    width: 140px;
+    max-height: 250px;
     display: flex;
-    border-radius: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .right-first-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 80px;
+    height: 150px;
+  }
+  .blog-4-min-read {
+    color: #021c29;
+    font-family: "SFProDisplay";
+    font-size: 5px;
+    text-align: left;
+  }
+  .lorem-ipsum-is-simpl-copy-4 {
+    color: #021c29;
+    font-family: "SFProDisplay";
+    font-size: 5px;
+    text-align: left;
+    max-width: 70px;
+  }
+  .december-14-2021-copy {
+    color: #021c29;
+    font-family: "SFProDisplay";
+    font-size: 5px;
+    text-align: left;
+  }
+  .right-first-image {
+    max-width: 50px;
+    max-height: 200px;
+  }
 }
-
-.insights-image{
-    height:50%;
-    background-size: cover;
-}
-
-@media screen and (min-width: 600px) {
-    .latest-insights {
-            padding: 200px;
-        }
-
-    .container {
-        display: flex;
-        width: 100%;
-    }
-}
-

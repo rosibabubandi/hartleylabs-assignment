@@ -22,8 +22,8 @@ const About = (props) => {
         </p>
         <p className="discover-work-text">DISCOVER OUR WORK</p>
         <div className="completion-bar-container">
-          <hr className="first-color-filling" />
-          <hr className="first-color-dropping" />
+          <hr className="first-about-color-filling" />
+          <hr className="first-about-color-dropping" />
         </div>
       </div>
     </>

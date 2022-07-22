@@ -1,36 +1,43 @@
 .careers-text {
   color: #0e0d12;
   font-family: "SF Pro";
+  font-size: 16px;
 }
 .join-our-team-text {
   font-family: "Mont-SemiBold";
   color: #23293c;
   font-size: 55px;
 }
-
 .middle-word-in-getting {
   color: #ff5043;
 }
-.hr-separator {
+.hr-separator-career {
   border: 1px solid #d1d1d1;
+  width: 700px;
+}
+.careers-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.career-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
   width: 50%;
 }
-.services-inside-container {
+.career-inside-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.services-ul-container {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  justify-content: flex-start;
-}
-.service-text {
+.careers-text {
   color: #23293c;
   font-family: "Mont-Regular";
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 500;
 }
 .plus-cancel-button {
   background-color: inherit;
@@ -44,35 +51,69 @@
   height: 25px;
   width: 25px;
 }
-.solutions-main-container {
-  background-color: #ffffff;
-  height: 100vh;
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 10px;
-}
-.solution-item-ul-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  list-style-type: none;
-  margin-left: 0px;
-  padding: 15px;
-}
-.solutions-top-industries-text {
-  color: #0e0d12;
-  font-family: "SF Pro";
-  font-size: 18px;
-  letter-spacing: 2px;
-  line-height: 22px;
-  text-align: left;
-}
 .hand-images {
   height: 400px;
   width: 350px;
   margin-left: 50;
+}
+
+@media screen and (max-width: 767px) {
+  .careers-text {
+    color: #0e0d12;
+    font-family: "SF Pro";
+    font-size: 12px;
+  }
+  .join-our-team-text {
+    font-family: "Mont-SemiBold";
+    color: #23293c;
+    font-size: 30px;
+  }
+  .middle-word-in-getting {
+    color: #ff5043;
+  }
+  .hr-separator-career {
+    border: 1px solid #d1d1d1;
+    width: 180px;
+  }
+  .careers-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .career-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 35%;
+    margin-left: 3px;
+  }
+  .career-inside-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .careers-text {
+    color: #23293c;
+    font-family: "Mont-Regular";
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .plus-cancel-button {
+    background-color: inherit;
+    border: none;
+    min-height: 80px;
+    max-height: 150px;
+    min-width: 80px;
+    max-width: 150px;
+  }
+  .plus-cancel-image-size {
+    height: 25px;
+    width: 25px;
+  }
+  .hand-images {
+    height: 300px;
+    width: 250px;
+    margin-left: 50;
+  }
 }

@@ -47,3 +47,54 @@
   width: 345px;
   height: 453px;
 }
+@media screen and (max-width: 767px) {
+  .services-li-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: flex-end;
+  }
+  .services-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 450px;
+    margin-right: 5px;
+  }
+  .betacraft-is-a-trust {
+    color: #23293c;
+    font-family: "SFProDisplay";
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .only-service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 5px;
+    list-style-type: none;
+  }
+  .service-item-container {
+    background-color: #fff9c3;
+    border: 1px solid #fffcdf;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  .design-research {
+    color: #23293c;
+    font-family: "Mont";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+  }
+  .service-image-design {
+    width: 150px;
+    height: 150px;
+  }
+}
