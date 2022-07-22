@@ -11,9 +11,14 @@
 
 .links-details {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   width: "100%";
-  padding-right: 300px;
+  padding-right: 10%;
+}
+
+.link-details {
+  padding-right: 10%;
 }
 
 .links-heading {
@@ -28,6 +33,7 @@
   min-width: 200px;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 20px;
 }
 
 .footer {

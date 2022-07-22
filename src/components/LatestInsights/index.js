@@ -27,7 +27,7 @@ const LatestInsights = (props) => {
         </div>
         <div className="second-right-combined-container">
           <div className="right-first-container">
-            <div className="right-first-text-container">
+            <div className="right-first-text-container left-rounded-corners">
               <p className="blog-4-min-read">BLOG | 4 min read</p>
               <p className="lorem-ipsum-is-simpl-copy-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -48,7 +48,7 @@ const LatestInsights = (props) => {
               alt="insights-3"
             />
 
-            <div className="right-first-text-container">
+            <div className="right-first-text-container right-rounded-corners">
               <p className="blog-4-min-read">BLOG | 4 min read</p>
               <p className="lorem-ipsum-is-simpl-copy-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting

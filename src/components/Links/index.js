@@ -54,14 +54,14 @@ const Links = (props) => (
       <img src={betacraftTitle} alt="betacraft -title" />
       <div className="links-details">
         {linksDetails.slice(0, linksDetails.length - 1).map((linkDetails) => (
-          <div>
+          <div className="link-details">
             <h6 className="links-heading">{linkDetails.title}</h6>
             {linkDetails.links.map((link) => (
               <p className="links">{link}</p>
             ))}
           </div>
         ))}
-        <div>
+        <div className="link-details">
           <h6 className="links-heading">{linksDetails[3].title}</h6>
           {linksDetails[3].links.map((link) => (
             <p className="links">{link}</p>
